@@ -1,0 +1,204 @@
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+.keyboard-wrap {
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+    color: #00aa25;
+    font-size: 14px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.keyboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-keyboard {
+    max-width: 810px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.keyboard button {
+    width: 50px;
+    height: 32px;
+}
+
+.f-btns button,
+.serv-btns button {
+    height: 15px;
+    font-size: 10px;
+}
+
+button.caps {
+    width: 105px;
+    position: relative;
+}
+
+button.caps::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+button.dell,
+button.enter {
+    width: 105px;
+}
+
+button.tab,
+button.slash {
+    width: 77px;
+}
+
+button.shifts {
+    width: 132px;
+}
+
+button.space {
+    width: 267px;
+}
+
+button.alt {
+    width: 70px;
+}
+
+.fifth-row {
+    position: relative;
+}
+
+.arrows button {
+    height: 14px;
+    width: 57px;
+    padding: 0;
+}
+
+.left-arrow,
+.right-arrow {
+    max-height: 35px;
+}
+
+.top-arrow {
+    max-height: 20px;
+    top: -7px;
+    position: relative;
+}
+
+.bottom-arrow {
+    bottom: -8px;
+    position: absolute;
+    max-height: 20px;
+    right: 54px;
+}
+
+.arrows {
+    max-width: 50px;
+}
+
+button.zero {
+    width: 105px;
+}
+
+.numpad {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 211px;
+}
+
+button.num-enter {
+    position: absolute;
+    right: 0;
+    height: 74px;
+}
+
+button.num {
+    position: relative;
+}
+
+button.num::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    top: 5px;
+    right: 5px;
+}
+
+button.indicator::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+button.plus,
+button.minus {
+    position: absolute;
+    right: 0;
+}
+
+button.plus {
+    height: 74px;
+}
+
+.serv-btns button {
+    max-width: 50px;
+}
+
+button.pg-dn {
+    position: absolute;
+    max-width: 49px;
+    right: 0;
+    top: 3px;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">  
+    <link rel="stylesheet" href='./css/reset.css'>
+    <link rel="stylesheet" href='./css/style.css'>
+    <title>Virtual keyboard</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <section>
+            <div>
+
+                <input type="text" class="i-11">
+                <hr>
+                <div class="keyboard-wrap">
+                    <div class="keyboard">
+                        <div class="main-keyboard">
+                            <div class="f-btns">
+                                <button data-action="Escape" class="no-upper">esc</button>
+                                <button data-action="F1" class="no-upper">f1</button>
+                                <button data-action="F2" class="no-upper">f2</button>
+                                <button data-action="F3" class="no-upper">f3</button>
+                                <button data-action="F4" class="no-upper">f4</button>
+                                <button data-action="F4" class="no-upper">f5</button>
+                                <button data-action="F5" class="no-upper">f6</button>
+                                <button data-action="F6" class="no-upper">f7</button>
+                                <button data-action="F7" class="no-upper">f8</button>
+                                <button data-action="F8" class="no-upper">f9</button>
+                                <button data-action="F9" class="no-upper">f10</button>
+                                <button data-action="F10" class="no-upper">f11</button>
+                                <button data-action="F11" class="no-upper">f12</button>
+                                <button data-action="F12" class="no-upper">insert</button>
+                                <button data-action="Delete" class="no-upper">delete</button>
+                            </div>
+                            <div class="1-row">
+                                <button>`</button>
+                                <button>1</button>
+                                <button>2</button>
+                                <button>3</button>
+                                <button>4</button>
+                                <button>5</button>
+                                <button>6</button>
+                                <button>7</button>
+                                <button>8</button>
+                                <button>9</button>
+                                <button>0</button>
+                                <button>-</button>
+                                <button>+</button>
+                                <button data-action="Backspace" class="dell">&#8592;</button>
+                            </div>
+                            <div class="2-row">
+                                <button data-action="Tab" class="tab">&#8596;</button>
+                                <button>q</button>
+                                <button>w</button>
+                                <button>e</button>
+                                <button>r</button>
+                                <button>t</button>
+                                <button>y</button>
+                                <button>u</button>
+                                <button>i</button>
+                                <button>o</button>
+                                <button>p</button>
+                                <button>[</button>
+                                <button>]</button>
+                                <button class="slash">\</button>
+                            </div>
+                            <div class="3-row">
+                                <button data-action="CapsLock" class="no-upper caps">Caps lock</button>
+                                <button>a</button>
+                                <button>s</button>
+                                <button>d</button>
+                                <button>f</button>
+                                <button>g</button>
+                                <button>h</button>
+                                <button>j</button>
+                                <button>k</button>
+                                <button>l</button>
+                                <button>;</button>
+                                <button>'</button>
+                                <button data-action="Enter" class="enter">&crarr;</button>
+                            </div>
+                            <div class="4-row">
+                                <button data-action="left-shift" class="shifts">&uarr;</button>
+                                <button>z</button>
+                                <button>x</button>
+                                <button>c</button>
+                                <button>v</button>
+                                <button>b</button>
+                                <button>n</button>
+                                <button>m</button>
+                                <button>,</button>
+                                <button>.</button>
+                                <button>/</button>
+                                <button data-action="right-shift" class="shifts">&uarr;</button>
+                            </div>
+                            <div class="fifth-row">
+                                <button data-action="left-ctrl" class="no-upper">ctrl</button>
+                                <button data-action="fn" class="no-upper">fn</button>
+                                <button data-action="Meta" class="no-upper">win</button>
+                                <button data-action="left-alt" class="alt no-upper">alt</button>
+                                <button data-action=" " class="space no-upper">space</button>
+                                <button data-action="right-alt" class="alt no-upper">alt</button>
+                                <button data-action="right-ctrl" class="no-upper">ctrl</button>
+                                <button data-action="ArrowLeft" class="arrows left-arrow">&larr;</button>
+                                <button data-action="ArrowUp" class="arrows top-arrow">&uarr;</button>
+                                <button data-action="ArrowDown" class="arrows bottom-arrow">&darr;</button>
+                                <button data-action="ArrowRight" class="arrows right-arrow">&rarr;</button>
+                            </div>
+                        </div>
+                        <div class="numpad">
+                            <div class="serv-btns">
+                                <button data-action="home" class="no-upper">home</button>
+                                <button data-action="endr" class="no-upper">end</button>
+                                <button data-action="pg-up" class="no-upper">pg up</button>
+                                <button data-action="pg-dn" class="pg-dn no-upper">pg dn</button>
+                            </div>
+                            <div class="etc-nbtns">
+                                <button data-action="NumLock" class="num no-upper indicator--1">num</button>
+                                <button data-action="num-item" class="minus">-</button>
+                                <button data-action="num-item">/</button>
+                                <button data-action="num-item">*</button>
+                                <button data-action="num-item">7</button>
+                                <button data-action="num-item">8</button>
+                                <button data-action="num-item">9</button>
+                                <button data-action="num-item" class="plus">+</button>
+                                <button data-action="num-item">4</button>
+                                <button data-action="num-item">5</button>
+                                <button data-action="num-item">6</button>
+                                <button data-action="num-item">1</button>
+                                <button data-action="num-item">2</button>
+                                <button data-action="num-item">3</button>
+                                <button data-action="num-item" class="num-enter">&crarr;</button>
+                                <button data-action="num-item" class="zero">0</button>
+                                <button>.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </div>
+
+        <script src="main.js"></script>
+</body>
+
+</html>
